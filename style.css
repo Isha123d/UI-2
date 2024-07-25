@@ -1,0 +1,289 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    
+}
+.navbar{
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 25px;
+    margin-top: 10px;
+    
+}
+.list{
+    width: 35%;
+    
+}
+.list ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.list ul li{
+    list-style: none;
+}
+
+.button{
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.button button{
+    width: 110px;
+    height: 35px;
+    border-radius: 40px;
+    background-color: #4262FF;
+    color: white;
+    border: none;
+}
+.button p{
+    margin-right: 9px;
+}
+.hr-line{
+    margin-top: 25px;
+}
+.section{
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+.left{
+    width: 50%;
+    height: auto;
+    text-align: start;
+    padding-left: 170px;
+}
+.left h1{
+    font-size: 35px;
+    font-style: bold;
+}
+.left h1 a{
+    text-decoration: none;
+    color: #7785FF;
+    font-style: italic;
+}
+.left p{
+    font-size: 18px;
+    margin-top: 20px;
+}
+.left button{
+    margin-top: 30px;
+    height: 39px;
+    width: 380px;
+    border-radius: 40px;
+    background-color: #4262FF;
+    color: white;
+    border: none;
+}
+.right{
+    width: 50%;
+    height: auto;
+}
+.right img{
+    width: 75%;
+}
+.section-1{
+    height: auto;
+    width: 100%;
+    text-align: center;
+    margin-top: 25px;
+}
+.section-1 h4{
+    font-size: 18px;
+    color: #696688;
+}
+
+.brands{
+    height: auto;
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 190px;
+}
+.brands img{
+    width: 90px;
+    
+}
+.section-2{
+    height: auto;
+    width: 100%;
+     text-align: center;
+     margin-top: 120px;
+}
+.section-2 h1{
+  font-size: 42px;
+}
+.section-2 h1 a{
+    text-decoration: none;
+    color: #7785FF;
+    font-style: italic;  
+}
+.section-2 p{
+    font-size: 22px;
+    margin-top: 25px;
+    /* font-weight: bold; */
+    
+}
+.section-3{
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+   padding-inline: 170px;
+}
+.sec p{
+    margin-top: 20px;
+    font-size: 19px;
+    /* font-family: 'Times New Roman', Times, serif; */
+}
+.sec h3{
+    font-size: 26px;
+}
+.sec1 p{
+    margin-top: 20px;
+    font-size: 19px;
+    /* font-family: 'Times New Roman', Times, serif; */
+}
+.sec1 h3{
+    font-size: 26px;
+}
+.sec1 p a{
+    text-decoration: none;
+    color: #7785FF;
+    font-style: italic;  
+}
+@media (max-width:768px) {
+ .logo h3{
+    font-size: 15px;
+ }
+ .list ul li {
+    font-size: 9px;
+ }
+ .button p{
+    font-size: 9px;
+ }
+ .button button{
+    font-size: 7px;
+    width: 250px;
+    height: 20px;
+    border-radius: 10px;
+ }
+ .list {
+    /* width: 50%; */
+    display: none;
+ }
+ .button {
+    width: 18%;
+ }
+ .left{
+    padding-left: 0;
+    /* padding-inline: 7px; */
+    
+ }
+.left h1{
+    font-size: 18px;
+}
+.left p{
+    font-size: 10px;
+}
+.left button{
+    width: 218px;
+    height: 20px;
+    font-size: 8px;
+}
+.section{
+    padding-inline: 35px;
+    margin-top: 50px;
+}
+.right img{
+    width: 95%;
+}
+.section-1 h4{
+    font-size: 9px;
+}
+.brands{
+     padding-inline: 90px;
+    
+}
+.brands img{
+    width: 28px;
+}
+.section-2 h1{
+    font-size: 22px;
+}
+.section-2 p{
+font-size: 10px;
+}
+.section-3{
+    padding-inline: 23px;
+}
+.sec h3{
+    font-size: 15px;
+     
+}
+.sec p{
+    font-size: 10px;
+}
+.sec1 h3{
+    font-size: 15px;
+     
+}
+.sec1 p{
+    font-size: 10px;
+}
+.section-3{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-inline: 10px;
+}
+.sec{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.sec1{
+    width: 100%;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.sec h3{
+    font-size: 35px;
+}
+.sec1 h3{
+    font-size: 35px;
+}
+
+.sec p{
+    font-size: 20px;
+}
+.sec1 p{
+    font-size: 20px;
+}
+}
